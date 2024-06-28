@@ -78,10 +78,11 @@ struct HomeScreen: View {
                     Text("Result")
                         .frame(maxWidth: .infinity)
                         .frame(height: 50)
-                        .background(Color.primarycolor)
-                        .foregroundColor(.white)
+                        .background(viewModel.input.isEmpty ? Color.gray : Color.primarycolor)
+                        .foregroundStyle(Color.white)
                         .cornerRadius(5)
                 }
+                .disabled(viewModel.input.isEmpty)
                 .padding(.top, 10)
                 .padding(.bottom, 40)
                 
