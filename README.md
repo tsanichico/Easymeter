@@ -1,6 +1,8 @@
 #  Easymeter
 Easymeter is a simple unit conversion app for converting between centimeters and meters, developed using SwiftUI with MVVM architecture. 
 
+![Free_iPhone_Mockup_4](https://github.com/user-attachments/assets/d57cb4ef-b664-436f-a73b-1f66110f2760)
+
 ## Requirements
 - iOS 17.5~
 
